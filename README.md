@@ -1,6 +1,8 @@
-# niri-plugin
 
-A plugin for [noctalia-shell](https://github.com/YaLTeR/noctalia-shell) that adds a panel and bar controls for the [niri](https://github.com/YaLTeR/niri) Wayland compositor.
+# niri-plugin
+<img width="352" height="184" alt="Screenshot from 2026-06-13 11-57-08" src="https://github.com/user-attachments/assets/7ae9f7af-5d8c-4fff-a85d-5fc067c6e36b" />
+
+A plugin for [noctalia-shell](https://github.com/noctalia-dev/noctalia) that adds a panel and bar controls for the [niri](https://github.com/YaLTeR/niri) Wayland compositor.
 
 ## Features
 
