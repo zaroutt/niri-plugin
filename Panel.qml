@@ -258,26 +258,25 @@ Item {
             spacing: Style.marginS
             anchors.horizontalCenter: parent.horizontalCenter
             Repeater {
-              model: 5
+              model: 4
               delegate: ToolBtn {
-                readonly property var labels: ["Sync Radius", "Sync Shadow", "Rainbow Ring", "Ring Width", "Noise & Sat"]
+                readonly property var labels: ["Sync Shadow", "Rainbow Ring", "Ring Width", "Noise & Sat"]
                 readonly property int myIdx: index
                 num: index + 6
-                tooltip: myIdx === 2
+                tooltip: myIdx === 1
                   ? (root.focusRingGradient ? "Rainbow: On" : "Rainbow: Off")
-                  : myIdx === 3
+                  : myIdx === 2
                     ? "Width: " + root.focusRingWidth + "px"
-                    : myIdx === 4
+                    : myIdx === 3
                       ? "Noise & Sat: " + (root.noiseEnabled ? "On" : "Off")
                       : labels[index]
                 width: compCol.btnSize; height: compCol.btnSize
                 interactive: true
                 onTriggered: {
-                  if (myIdx === 0) root.syncCornerRadius()
-                  else if (myIdx === 1) root.syncShadowColor()
-                  else if (myIdx === 2) root.toggleFocusRingGradient()
-                  else if (myIdx === 3) root.toggleFocusRingWidth()
-                  else if (myIdx === 4) root.toggleNoiseSat()
+                  if (myIdx === 0) root.syncShadowColor()
+                  else if (myIdx === 1) root.toggleFocusRingGradient()
+                  else if (myIdx === 2) root.toggleFocusRingWidth()
+                  else if (myIdx === 3) root.toggleNoiseSat()
                 }
               }
             }
