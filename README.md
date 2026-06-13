@@ -28,7 +28,7 @@ Clone the repository and run the install script:
 
 ```sh
 git clone https://github.com/zaroutt/niri-plugin.git
-cd tentativa
+cd niri-plugin
 ./install.sh
 ```
 
