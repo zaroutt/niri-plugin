@@ -1,0 +1,20 @@
+{
+  "id": "niri-config",
+  "name": "Niri Config",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "za",
+  "license": "MIT",
+  "description": "Quick toggles for niri: blur, focus ring, corners, shadow, noise, kitty glass",
+  "tags": ["Bar", "Panel", "Utility"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml",
+    "panel": "Panel.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {}
+  }
+}
