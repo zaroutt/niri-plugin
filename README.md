@@ -27,7 +27,7 @@ A plugin for [noctalia-shell](https://github.com/noctalia-dev/noctalia) that add
 Clone the repository and run the install script:
 
 ```sh
-git clone <repo-url>
+git clone https://github.com/zaroutt/niri-plugin.git
 cd tentativa
 ./install.sh
 ```
